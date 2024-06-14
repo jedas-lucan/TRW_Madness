@@ -194,7 +194,7 @@
 
 .main .gallery {
   height: 89px;
-  margin-right: 0;
+  margin-left: 0;
   width: 168px;
 }
 
@@ -204,24 +204,23 @@
 }
 
 .main .frame-2 {
+  margin-left: 0.01px;
   position: relative;
 }
 
 .main .illust {
   height: 727px;
   width: 454px;
-  position: relative;
 }
 
 .main .illust-1 {
   height: 727px;
   width: 724px;
-  position: relative;
 }
 
 .main .rectangle-33 {
   height: 727px;
-
+  object-fit: cover;
   position: relative;
   width: 543px;
 }
@@ -229,30 +228,25 @@
 .main .illust-2 {
   height: 727px;
   width: 967px;
- 
-  position: relative;
-
 }
 
 .main .illust-3 {
-  height: 727px;
-
+  height: 728px;
+  margin-bottom: -0.50px;
+  margin-top: -0.50px;
   width: 545px;
-  position: relative;
 }
 
 .main .illust-4 {
   height: 727px;
   width: 545px;
-  position: relative;
-
 }
 
 .main .illust-5 {
-  height: 727px;
+  height: 728px;
+  margin-bottom: -0.50px;
+  margin-top: -0.50px;
   width: 547px;
-  position: relative;
-  object-fit: cover;
 }
 
 .main .overlap-group4 {
@@ -283,35 +277,42 @@
   top: 302px;
 }
 
-.main .illust-4 {
-  height: 899px;
-  margin-bottom: -81.10px;
-  margin-top: -81.10px;
+.main .illust-6 {
+  height: 893px;
+  margin-bottom: -83.10px;
+  margin-top: -83.10px;
   width: 1594px;
 }
 
-.main .illust-5 {
-  height: 889px;
-  margin-bottom: -81.10px;
-  margin-top: -81.10px;
+.main .illust-7 {
+  height: 888px;
+  margin-bottom: -80.60px;
+  margin-top: -80.60px;
   width: 1582.54px;
 }
 
-.main .illust-6 {
+.main .illust-8 {
   height: 889px;
   margin-bottom: -81.10px;
   margin-top: -81.10px;
   width: 1042.65px;
 }
 
-.main .illust-7 {
+.main .illust-9 {
   height: 889px;
   margin-bottom: -81.10px;
   margin-top: -81.10px;
   width: 1303.73px;
 }
 
-.main .illust-8 {
+.main .illust-10 {
+  height: 889px;
+  margin-bottom: -81.10px;
+  margin-top: -81.10px;
+  width: 667px;
+}
+
+.main .illust-11 {
   height: 889px;
   margin-bottom: -81.10px;
   margin-top: -81.10px;
