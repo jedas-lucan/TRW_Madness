@@ -199,56 +199,23 @@
 }
 
 .main .frame-2 {
-   margin-left: 0.01px;
-  position: relative;
-  overflow-x: scroll; /* 추가 */
-  display: flex;
+  overflow-x: auto; /* 스크롤을 위해 auto로 설정 */
+  display: flex; /* 가로 방향으로 정렬 */
+  white-space: nowrap; /* 줄바꿈 방지 */
 }
 
-.main .frame-2 {
-  margin-left: 0.01px;
-  position: relative;
-}
-
-.main .illust {
-  height: 727px;
-  width: 454px;
-}
-
-.main .illust-1 {
-  height: 727px;
-  width: 724px;
-}
-
-.main .rectangle-33 {
-  height: 727px;
-  object-fit: cover;
-  position: relative;
-  width: 543px;
-}
-
-.main .illust-2 {
-  height: 727px;
-  width: 967px;
-}
-
-.main .illust-3 {
-  height: 728px;
-  margin-bottom: -0.50px;
-  margin-top: -0.50px;
-  width: 545px;
-}
-
-.main .illust-4 {
-  height: 727px;
-  width: 545px;
-}
-
-.main .illust-5 {
-  height: 728px;
-  margin-bottom: -0.50px;
-  margin-top: -0.50px;
-  width: 547px;
+.main .illust,
+.main .illust-1,
+.main .rectangle-33,
+.main .illust-2,
+.main .illust-3,
+.main .illust-4,
+.main .illust-5,
+ {
+  height: 100%; /* 높이를 부모 요소에 맞춤 */
+  width: auto; /* 가로 크기는 자동 조절 */
+  object-fit: contain; /* 이미지가 잘리지 않도록 설정 */
+  flex-shrink: 0; /* 이미지가 줄어들지 않도록 설정 */
 }
 
 .main .overlap-group4 {
