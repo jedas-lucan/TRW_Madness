@@ -198,7 +198,7 @@
   width: 168px;
 }
 
-.main .frame-2::-webkit-scrollbar {
+.main .frame-2 {
    margin-left: 0.01px;
   position: relative;
   overflow-x: scroll; /* 추가 */
