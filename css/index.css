@@ -221,7 +221,7 @@
 
 .main .rectangle-33 {
   height: 727px;
-  object-fit: cover;
+
   position: relative;
   width: 543px;
 }
@@ -229,14 +229,14 @@
 .main .illust-2 {
   height: 727px;
   width: 967px;
-  object-fit: cover;
+ 
   position: relative;
 
 }
 
 .main .illust-3 {
   height: 727px;
-  object-fit: cover;
+
   width: 545px;
   position: relative;
 }
@@ -245,7 +245,7 @@
   height: 727px;
   width: 545px;
   position: relative;
-  object-fit: cover;
+
 }
 
 .main .illust-5 {
