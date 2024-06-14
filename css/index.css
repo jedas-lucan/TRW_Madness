@@ -199,8 +199,10 @@
 }
 
 .main .frame-2::-webkit-scrollbar {
-  display: none;
-  width: 0;
+   margin-left: 0.01px;
+  position: relative;
+  overflow-x: scroll; /* 추가 */
+  display: flex;
 }
 
 .main .frame-2 {
