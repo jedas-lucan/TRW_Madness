@@ -212,9 +212,11 @@
 .main .illust-4,
 .main .illust-5,
  {
-  height: 100%; /* 높이를 부모 요소에 맞춤 */
+  height: auto; /* 높이를 자동으로 설정 */
   width: auto; /* 가로 크기는 자동 조절 */
-  object-fit: contain; /* 이미지가 잘리지 않도록 설정 */
+  max-height: 727px; /* 최대 높이 설정 */
+  max-width: 100%; /* 최대 가로 크기 설정 */
+  object-fit: cover; /* 이미지 비율을 유지하면서 크기 조절 */
   flex-shrink: 0; /* 이미지가 줄어들지 않도록 설정 */
 }
 
