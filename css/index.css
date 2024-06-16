@@ -1,5 +1,7 @@
 /* screen - main */
-
+body {
+  overflow-x: hidden; /* 전체 페이지에서 가로 스크롤 막기 */
+}
 
 .main {
   background-color: #7c0e0e;
@@ -198,25 +200,57 @@
   width: 168px;
 }
 
-.main .frame-2 {
-  overflow-x: auto; /* 스크롤을 위해 auto로 설정 */
-  display: flex; /* 가로 방향으로 정렬 */
-  white-space: nowrap; /* 줄바꿈 방지 */
+.main .frame-2::-webkit-scrollbar {
+  display: none;
+  width: 0;
 }
 
-.main .illust,
-.main .illust-1,
-.main .rectangle-33,
-.main .illust-2,
-.main .illust-3,
-.main .illust-4,
-.main .illust-5,
- {
- height: 727px; /* 고정 높이 설정 */
-  width: 100%; /* 가로 크기는 자동 조절 */
-  object-fit: cover; /* 이미지 비율을 유지하면서 크기 조절 */
-  flex-shrink: 0; /* 이미지가 줄어들지 않도록 설정 */
+.main .frame-2 {
+  margin-left: 0.01px;
+  position: relative;
 }
+
+.main .illust {
+  height: 727px;
+  width: 454px;
+}
+
+.main .illust-1 {
+  height: 727px;
+  width: 724px;
+}
+
+.main .rectangle-33 {
+  height: 727px;
+  object-fit: cover;
+  position: relative;
+  width: 543px;
+}
+
+.main .illust-2 {
+  height: 727px;
+  width: 967px;
+}
+
+.main .illust-3 {
+  height: 728px;
+  margin-bottom: -0.50px;
+  margin-top: -0.50px;
+  width: 545px;
+}
+
+.main .illust-4 {
+  height: 727px;
+  width: 545px;
+}
+
+.main .illust-5 {
+  height: 728px;
+  margin-bottom: -0.50px;
+  margin-top: -0.50px;
+  width: 547px;
+}
+
 
 .main .overlap-group4 {
   height: 1296px;
