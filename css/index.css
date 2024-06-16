@@ -214,7 +214,7 @@ body {
   height: 727px;
   object-fit: cover;
   position: relative;
-  width: 454px;
+  width: 100%;
 }
 
 .main .illust-1 {
