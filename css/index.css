@@ -212,11 +212,15 @@ body {
 
 .main .illust {
   height: 727px;
+  object-fit: cover;
+  position: relative;
   width: 454px;
 }
 
 .main .illust-1 {
   height: 727px;
+  object-fit: cover;
+  position: relative;
   width: 724px;
 }
 
@@ -229,25 +233,33 @@ body {
 
 .main .illust-2 {
   height: 727px;
+  object-fit: cover;
+  position: relative;
   width: 967px;
 }
 
 .main .illust-3 {
   height: 728px;
-  margin-bottom: -0.50px;
-  margin-top: -0.50px;
+  object-fit: cover;
+  position: relative;
+  /* margin-bottom: -0.50px;
+  margin-top: -0.50px; */
   width: 545px;
 }
 
 .main .illust-4 {
   height: 727px;
+  object-fit: cover;
+  position: relative;
   width: 545px;
 }
 
 .main .illust-5 {
   height: 728px;
-  margin-bottom: -0.50px;
-  margin-top: -0.50px;
+  object-fit: cover;
+  position: relative;
+  /* margin-bottom: -0.50px;
+  margin-top: -0.50px; */
   width: 547px;
 }
 
